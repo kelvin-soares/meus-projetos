@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+main {
+    margin: 10px auto 10px auto;
+    max-width: 320px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+main > article > h1 {
+    padding: 25px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.minha-imagem {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-position: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../images/my-picture.png');
+}
+
+main > article > p {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 25px;
+}
