@@ -6,12 +6,9 @@
     padding: 0px;
 }
 
-body {
-    max-width: 320px;
-}
-
 main {
     margin: auto;
+    min-width: 320px;
 }
 
 main > article > h1 {
