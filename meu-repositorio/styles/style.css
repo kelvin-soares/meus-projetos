@@ -7,15 +7,7 @@
 }
 
 body {
-    background-color: lightgray;
-}
-
-main {
-    margin: 10px auto 10px auto;
     max-width: 320px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
 }
 
 main > article > h1 {
@@ -32,6 +24,10 @@ main > article > h1 {
     background-position: center center;
     background-size: cover;
     background-image: url('../images/my-picture.png');
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px black;
 }
 
 main > article > p {
